@@ -1,5 +1,5 @@
 do 
-    local ui =  game:GetService("CoreGui"):FindFirstChild("NBTxTP Lib") 
+    local ui =  game:GetService("CoreGui"):FindFirstChild("UI_Script") 
     if ui then
         ui:Destroy()
     end
@@ -15,7 +15,7 @@ local Mouse = LocalPlayer:GetMouse()
 
 local Atomlib = Instance.new("ScreenGui")
 
-Atomlib.Name = "NBTxTP Lib"
+Atomlib.Name = "UI_Script"
 Atomlib.Parent = game:GetService("CoreGui")
 Atomlib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
